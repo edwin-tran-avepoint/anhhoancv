@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import catImage from './images/cat_logo.jpg'
 // import './App.css';
-
+import { Avatar, Descriptions } from 'antd';
 function App() {
   return (
     <div className="App">
@@ -22,9 +22,13 @@ function App() {
 
       <div>
         <div className='profile-header'>
-          <img src={catImage} alt='profile-pic' className='profile' />
-          <p>Tran Anh Hoan</p>
-          <p>Frontend Developer</p>
+          <div>
+            <Avatar src={catImage} shape='circle' size={300} />
+          </div>
+          <Descriptions column={1}>
+            <Descriptions.Item >Tran Anh Hoan</Descriptions.Item>
+            <Descriptions.Item >Frontend Developer</Descriptions.Item>
+          </Descriptions>
           <div className='about-me'>
             <p>About me</p>
             <p>I'm a self-driven and self-motivated person with
