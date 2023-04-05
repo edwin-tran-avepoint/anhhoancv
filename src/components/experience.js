@@ -4,7 +4,6 @@ const ExperienceComponent = () => {
   return (
     <div className='container p-5 flex flex-col'>
       <div className='block w-full p-6 bg-white border border-gray-200 rounded-lg shadow space-y-5'>
-
         <div className='block  space-y-3'>
           <p className='font-extrabold text-xl text-gray-900'>EXPERIENCE</p>
           <div className='block'>
@@ -57,7 +56,6 @@ const ExperienceComponent = () => {
               <div>Manual testing for frontend and write test case for backend</div>
               <div>Prepare document for customer</div>
             </div >
-
           </div>
         </div>
       </div>

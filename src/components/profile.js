@@ -4,15 +4,6 @@ const ProfileComponent = () => {
   return (
     <div className='container p-5 flex flex-col'>
       <div className='block w-full p-6 bg-white border border-gray-200 rounded-lg shadow space-y-10'>
-        <div>
-          <div className='font-extrabold text-xl text-gray-900'>About me</div>
-          <div className='text-base text-gray-500'>I'm a self-driven and self-motivated person with
-            well communication, quick learner and be
-            interested in researching new things and also a
-            passionate software engineer with roughly two - year experience in software development that
-            mainly focus on React JS.</div>
-        </div>
-
         <div className='block'>
           <div className='font-extrabold text-xl text-gray-900'>Contact</div>
           <div className='grid grid-rows-2 grid-flow-col gap-4'>
@@ -32,24 +23,6 @@ const ProfileComponent = () => {
               <div className='text-base text-gray-500'>EMAIL</div>
               <div className='text-base text-gray-900'>anhhoan1897@gmail.com</div>
             </div>
-            {/* <table>
-        <tr>
-          <td>ADDRESS</td>
-          <td>Da Nang</td>
-        </tr>
-        <tr>
-          <td>PHONE</td>
-          <td>0393 999 682</td>
-        </tr>
-        <tr>
-          <td>BIRTHDAY</td>
-          <td>01/08/1997</td>
-        </tr>
-        <tr>
-          <td>EMAIL</td>
-          <td>anhhoan1897@gmail.com</td>
-        </tr>
-      </table> */}
           </div>
         </div>
         <div className='block'>

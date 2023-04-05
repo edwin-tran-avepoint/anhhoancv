@@ -28,19 +28,26 @@ function App() {
   return (
 
     <div className="container mx-auto ">
-      {/* <div className='container flex items-center space-x-8 p-5 '>
-        <img className='w-20 h-20 rounded-full' src={catImage} alt='' />
-        <div className='font-medium'>
-          <div>Tran Anh Hoan</div>
-          <div className='text-sm text-gray-500 dark:text-gray-400'>Front-end Developer</div>
+      <aside id="default-sidebar" className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform translate-x-full sm:translate-x-0" aria-label="Sidebar">
+        <div className='h-full w-80 px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800'>
+          <div className='container flex items-center space-x-8 p-5 '>
+            <img className='w-20 h-20 rounded-full' src={catImage} alt='' />
+            <div className='font-medium'>
+              <div>Tran Anh Hoan</div>
+              <div className='text-sm text-gray-500 dark:text-gray-400'>Front-end Developer</div>
+            </div>
+          </div>
+          <ul className='space-y-2 font-medium'>
+            {components.map(item =>
+              <li onClick={() => setActiveComponent(item.key)}>
+                <a href="#"className='flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'>
+                  <span className='ml-3'>{item.key}</span>
+                </a>
+              </li>
+            )} </ul>
         </div>
-      </div> */}
-      <aside id="default-sidebar" className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
-        <ul>{components.map(item =>
-          <li onClick={() => setActiveComponent(item.key)}>{item.key}</li>
-        )} </ul>
       </aside>
-      <div>{currentComponent}</div>
+      <div className='flex p-4 sm:ml-64 place-content-center h-full'>{currentComponent}</div>
     </div>
   );
 }
