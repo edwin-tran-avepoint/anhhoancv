@@ -3,7 +3,9 @@ import catImage from './images/cat_logo.jpg'
 import AboutComponent from './components/about';
 import ExperienceComponent from './components/experience';
 import ProfileCompnent from './components/profile';
+import ExportPdf from './htmlToPdf/DownloadButton';
 
+import MyCv from './htmlToPdf/CVtoConvert';
 
 function App() {
 
@@ -25,6 +27,7 @@ function App() {
   const currentComponent = useMemo(() => {
     return components.find(key => key.key == activeComponent).component
   }, [activeComponent])
+  
   return (
 
     <div className="container mx-auto ">
@@ -46,6 +49,7 @@ function App() {
               </li>
             )} </ul>
         </div>
+        <ExportPdf />
       </aside>
       <div className='flex p-4 sm:ml-64 place-content-center h-full'>{currentComponent}</div>
     </div>
