@@ -1,12 +1,13 @@
 import React from "react";
+import catImage from "./images/cat_logo.jpg"
 
 const MyCv = () => {
   return (
-    <div id="divToPrint">
+    <div id="pdfToPrint">
       <div className="base">
         <div className="profile">
           <div className="photo">
-            <img src="{catImage}" alt="profile-pic" className="profile" />
+            <img src={catImage}  alt="profile-pic" className="w-20 h-20 rounded-full" />
           </div>
           <div className="info">
             <h3>Tran Anh Hoan</h3>
@@ -22,7 +23,7 @@ const MyCv = () => {
             software development that mainly focus on React JS.
           </p>
         </div>
-        <div className="contact">
+        <div className="">
           <h3>Contact</h3>
           <div className="home"><i className="fa fa-home"></i> <span>Da Nang</span></div>
           <div className="phone"><i className="fa fa-phone"></i>0393 999 682</div>
