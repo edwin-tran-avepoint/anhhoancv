@@ -8,6 +8,7 @@ import ProfileCompnent from './components/profile';
 function App() {
 
   const [activeComponent, setActiveComponent] = useState('ABOUT')
+  console.log("test")
   const components = [
     {
       key: 'ABOUT',
