@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/anhhoan.github.io/static/css/main.54257100.css",
-    "main.js": "/anhhoan.github.io/static/js/main.a43f08ac.js",
-    "static/js/787.f127a3db.chunk.js": "/anhhoan.github.io/static/js/787.f127a3db.chunk.js",
-    "static/media/cat_logo.jpg": "/anhhoan.github.io/static/media/cat_logo.9e2c806404a1b395a16f.jpg",
-    "index.html": "/anhhoan.github.io/index.html",
-    "main.54257100.css.map": "/anhhoan.github.io/static/css/main.54257100.css.map",
-    "main.a43f08ac.js.map": "/anhhoan.github.io/static/js/main.a43f08ac.js.map",
-    "787.f127a3db.chunk.js.map": "/anhhoan.github.io/static/js/787.f127a3db.chunk.js.map"
+    "main.css": "/anhhoancv/static/css/main.54257100.css",
+    "main.js": "/anhhoancv/static/js/main.71e8e698.js",
+    "static/js/787.f127a3db.chunk.js": "/anhhoancv/static/js/787.f127a3db.chunk.js",
+    "static/media/cat_logo.jpg": "/anhhoancv/static/media/cat_logo.9e2c806404a1b395a16f.jpg",
+    "index.html": "/anhhoancv/index.html",
+    "main.54257100.css.map": "/anhhoancv/static/css/main.54257100.css.map",
+    "main.71e8e698.js.map": "/anhhoancv/static/js/main.71e8e698.js.map",
+    "787.f127a3db.chunk.js.map": "/anhhoancv/static/js/787.f127a3db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54257100.css",
-    "static/js/main.a43f08ac.js"
+    "static/js/main.71e8e698.js"
   ]
 }
